@@ -38,3 +38,9 @@ pnpm validate:content
 This regenerates `src/data/report.json` and verifies all 219 PDF pages, section boundaries, summaries, page mappings, and expected testimony structure.
 
 The included command uses the Codex workspace Python runtime on this machine. For another computer, install `scripts/requirements.txt` and run `scripts/extract_report.py` with that Python environment.
+
+## License
+
+The original software in this repository is released into the public domain under [The Unlicense](LICENSE). Anyone may copy, modify, publish, use, compile, sell, or distribute it for any purpose, commercial or non-commercial, without attribution.
+
+The source report PDF and report-derived text remain subject to any rights held by the report's original authors or publisher. Their inclusion here does not relicense third-party material.
